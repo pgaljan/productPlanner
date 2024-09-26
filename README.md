@@ -11,7 +11,8 @@
 #### Use Structure Planner for...
 - project estimation and quick iteration during the ideation, planning, and contract bid phases
 - early identification of "big rocks" in the project plan
-- generating "what-if" analyses and business cases unconstrained by existing product management structures
+- generating "what-if" analyses and business cases unconstrained by existing project management structures
+- parallel analysis (red/blue team)
 - cross-organizational collaboration efforts with no shared data structures or nomenclatures
 - auditing operational project plans produced in enterprise project management software
 - creating a sanity-checked and agreed structure for implementation in enterprise project management software
