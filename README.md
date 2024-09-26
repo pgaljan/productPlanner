@@ -30,9 +30,10 @@
 - increase number resource entries per workstream and deliver warnings and errors when exceeded
 - have a better README with usage and screenshots
 - deliver a better cost management UX
-- improved phase management with forecast measures like revenue and margin
-- visuals displaying revenue/margin against project expenditure
-- deliver a nice roadmap chart of phases
+- include forecast measures like revenue and margin
+- feature visuals displaying revenue/margin against project expenditure
+- allow the user to create milestones and associate them with measures elsewhere
+- deliver a nice roadmap chart of phases with milestones and financials
 - deliver mermaid markup for hierarchy visualization
 
 #### Structure planner does not...
