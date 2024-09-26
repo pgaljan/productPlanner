@@ -6,7 +6,7 @@
 - designed for early project phase ideation, cost sizing, and visualzation
 - capable of an handling arbitrary numbers of workstreams and work periods
 - configurable to handle work periods of days, weeks, quarters, or years
-- delivered in a VB-free excel workbook
+- delivered in a VB-free excel workbook, with protected sheets for error-free entry
 
 #### Structure Planner delivers...
 - simpple, 4-paramater data entry for resources
