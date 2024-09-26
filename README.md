@@ -24,6 +24,7 @@
 - visuals displaying revenue/margin against project expenditure
 - deliver a nice roadmap chart of phases
 - deliver a more elegant way of adding workstreams
+- deliver mermaid markup for hierarchy visualization
 
 #### Structure planner does not...
 - support sorting rows in the workstream view
