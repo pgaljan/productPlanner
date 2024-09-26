@@ -18,11 +18,13 @@
 
 #### Structure Planner delivers...
 - simple, 5-parameter data entry for resources
-- completely user-defined task, subtask, and resource lists with prompts for reduction/deduplication
+- fluid, user-defined task and resource definition with prompts for reduction/deduplication
 - measures and tasks summarized and aggregated by extensible workstream
 - real-time visual feedback on data entry
 - variable phase support to account for time-linked tasks
-- filterable workstream views, and anyrow placement of tasks, subtasks and resources
+- filterable workstream views
+- anyrow placement of tasks, subtasks and resources
+- cost estimates by resource type, with capex and opex flags
 
 #### In the future, Structure Planner will...
 - increase number resource entries per workstream and deliver warnings and errors when exceeded
