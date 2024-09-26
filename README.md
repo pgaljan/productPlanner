@@ -9,15 +9,15 @@
 - delivered in a VB-free excel workbook
 
 #### Structure Planner delivers...
-- summarized measures and aggregated tasks by workstream
 - completely user-defined task, subtask, and resource lists
-- extensible workstreams
+- prompts for task, subtask, and resource reduction and deduplication
+- measures and tasks summarized and aggregated by extensible workstream
 - instant visual feedback on parameters when created/edited/deleted
 
-#### Structure Planner will (in the future)...
-- deliver a nice roadmap chart of phases
-- deliver a better cost management UX
-- use a defined table for phases, with sister attributes such as revenue and margin
+#### In the future, Structure Planner will...
 - have a better README with usage and screenshots
-
+- deliver a better cost management UX
+- improved phase management with forecast measures like revenue and margin
+- visuals displaying revenue/margin against project expenditure
+- deliver a nice roadmap chart of phases
 
