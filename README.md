@@ -1,7 +1,7 @@
 # Structure Planner
 
 #### Structure Planner is...
-- a simple, powerful, 4-tier, N workstream project planner 
+- a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
 - appropriate for use with two-pizza planning teams
 - designed for early project phase ideation, cost sizing, and visualzation
 - capable of an handling arbitrary numbers of workstreams and work periods
@@ -23,7 +23,6 @@
 - improved phase management with forecast measures like revenue and margin
 - visuals displaying revenue/margin against project expenditure
 - deliver a nice roadmap chart of phases
-- deliver a more elegant way of adding workstreams
 - deliver mermaid markup for hierarchy visualization
 
 #### Structure planner does not...
