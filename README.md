@@ -6,7 +6,7 @@
 - designed for early project phase ideation, cost sizing, and visualzation
 - capable of handling an arbitrary number of work periods and project timespan
 - configurable to handle work periods of days, weeks, quarters, or years
-- delivered in a VB and PowerQuery-free excel workbook, with protected sheets for error-free entry
+- delivered in a VB and PowerQuery-free excel workbook, with sheets protected (without password) for error-free authoring
 
 #### Use Structure Planner for...
 - project estimation and quick iteration during the ideation, planning, and contract bid phases
