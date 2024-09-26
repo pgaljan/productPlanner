@@ -1,7 +1,7 @@
 ## Usage
 
 ### Project Setup
-<img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="200"/>
+<img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="300"/>
 
 - establish a start date, periodicity (month, quarter, year, etc)
 - number of periods determines project duration
@@ -22,12 +22,12 @@
 - add as many rows as you need, keeping everying in the table, and the calculated columns (gray font) untouched
 - the default list is populated by chatGPT query for fully loaded United States OTE for the job roles
   
-<img src="https://github.com/user-attachments/assets/918942ad-ed9b-4fa8-9497-8eb3a3a28906" alt="img" width="300"/>
+<img src="https://github.com/user-attachments/assets/918942ad-ed9b-4fa8-9497-8eb3a3a28906" alt="img" width="200"/>
 
 Data are summarized by task in real time
 
 #### Phasing Resources
-<img src="https://github.com/user-attachments/assets/1c1ea617-93ff-4a6d-9600-70f25c3db87b" alt="img" width="300"/>
+<img src="https://github.com/user-attachments/assets/1c1ea617-93ff-4a6d-9600-70f25c3db87b" alt="img" width="400"/>
 
 - when resources are variable depending on the phase, switch "phased" to "on"
 - when values are manipulated, they are no longer tied to either the **base** or the **multiplier** and will be flagged as blue to indicate non-calucated value
