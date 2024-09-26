@@ -9,7 +9,7 @@
 - delivered in a VB-free excel workbook, with protected sheets for error-free entry
 
 #### Structure Planner delivers...
-- simpple, 4-paramater data entry for resources
+- simple, 5-paramater data entry for resources
 - completely user-defined task, subtask, and resource lists with prompts for reduction/deduplication
 - measures and tasks summarized and aggregated by extensible workstream
 - instant visual feedback on parameters when created/edited/deleted
