@@ -6,7 +6,15 @@
 - designed for early project phase ideation, cost sizing, and visualzation
 - capable of an handling arbitrary number of work periods and project timespan
 - configurable to handle work periods of days, weeks, quarters, or years
-- delivered in a VB-free excel workbook, with protected sheets for error-free entry
+- delivered in a VB and PowerQuery-free excel workbook, with protected sheets for error-free entry
+
+#### Use Structure Planner for...
+- project estimation and quick iteration during the ideation, planning, and contract bid phases
+- early identification of "big rocks" in the project plan
+- fast "what-if" analyses and busienss cases unconstrained by existing product management structure
+- cross-organizational collaboration efforts with no shared data structures or nomenclatures
+- auditing operational project plans produced in enterprise project management software
+- creating a sanity-checked and agreed structure for implementation in enterprise project management software
 
 #### Structure Planner delivers...
 - simple, 5-parameter data entry for resources
