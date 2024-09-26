@@ -1,26 +1,48 @@
 ## Usage
 
+### Project Setup
+<img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="200"/>
 
-### Adding and editing resources and costs
+- establish a start date, periodicity (month, quarter, year, etc)
+- number of periods determines project duration
+- multiplier is a phase-specific head or tailwind applied to the **base declared value**, not the previous phase
+
+### Creating Tasks, Subtasks and Resources
 <img src="https://github.com/user-attachments/assets/240e0fce-41f7-4588-aa62-52c254d5fcff" alt="img" width="200"/>
 
+- columns j-k are completely user-defined
+- the dropdowns are unenforced - to enter a new task, subtask or resource type the value
+- values you enter will be reflected in the list
+- newly declared resources will be flagged as red until added in the resources table (see [editing resources and costs](#resources))
 
-- the reosurces page is completely unprotected.  Use the defaults, or populate your own job roles and resources.
-- The current list is populated by chatGPT query for fully loaded United States OTE for the job roles
+### Resources
+<img src="https://github.com/user-attachments/assets/240e0fce-41f7-4588-aa62-52c254d5fcff" alt="img" width="300"/>
 
+- change the default resource types to those appropriate for your project
+- add as many rows as you need, keeping everying in the table, and the calculated columns (gray font) untouched
+- the default list is populated by chatGPT query for fully loaded United States OTE for the job roles
+  
+<img src="https://github.com/user-attachments/assets/918942ad-ed9b-4fa8-9497-8eb3a3a28906" alt="img" width="300"/>
 
+Data are summarized by task in real time
+
+#### Phasing Resources
+<img src="https://github.com/user-attachments/assets/1c1ea617-93ff-4a6d-9600-70f25c3db87b" alt="img" width="300"/>
+
+- when resources are variable depending on the phase, switch "phased" to "on"
+- when values are manipulated, they are no longer tied to either the **base** or the **multiplier** and will be flagged as blue to indicate non-calucated value
 ### Adding a workstream
-- duplicate the template worksheet, rename the Excel worksheet and the workstream (Cell $B$2)
+
 <img src="https://github.com/user-attachments/assets/0da27e30-2837-44bc-b7e4-ef0aa9a1c58c" alt="img" width="200"/>
 
-- go to the enum worksheet and enter the name of the _Excel worksheet _where the workstream is defined.  The workstream name will be automatically populated
+- duplicate the template worksheet, rename the Excel worksheet and the workstream (Cell $B$2)
+
 <img src="https://github.com/user-attachments/assets/e4270825-b050-443c-b87f-e3038daa86c4" alt="img" width="200"/>
 
-- if you enter an invalid worksheet name, you'll be prompted to fix it.
-- optionally enter the order that you would like the workstreams displayed
+- go to the enum worksheet and enter the name of the _Excel worksheet _where the workstream is defined.  The workstream name will be automatically populated
 
-### Manipulating Tasks, Subtasks and Resources
-- 
+
+
 
 # FAQ & roadmap
 
