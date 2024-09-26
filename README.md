@@ -14,8 +14,8 @@
 - generating "what-if" analyses and business cases unconstrained by existing project management structures
 - parallel analysis (red/blue team)
 - cross-organizational collaboration efforts with no shared data structures or nomenclatures
-- auditing operational project plans produced in enterprise project management software
-- creating a sanity-checked and agreed structure for implementation in enterprise project management software
+- auditing operational project plans produced in enterprise project management (EPM) software
+- modeling and simulation of notional project structures for operational implementation in EPM software
 
 #### Structure Planner delivers...
 - simple, 5-parameter data entry for resources
