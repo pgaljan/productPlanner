@@ -27,5 +27,5 @@
 
 #### Structure planner does not...
 - support sorting rows in the workstream view
-- support more than 100 subtasks/resources per workstream
-- warn the user when more than 100 subtasks/resources are entered in the workstream (though it should be obvious
+- support more than 100 subtasks/resources per workstream (action blocked)
+
