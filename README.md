@@ -42,7 +42,7 @@
 
   ## Usage
   ### Project and Phase Setup
-
+<img src="[drawing.jpg](https://github.com/user-attachments/assets/fd072a93-3e5e-41cf-867e-c9cde862de4e)" alt="img" width="200"/>
   ![image](https://github.com/user-attachments/assets/fd072a93-3e5e-41cf-867e-c9cde862de4e)
 - Set a Name and start date (defaults to today)
 - Select a planning periodicity (from day to year)
