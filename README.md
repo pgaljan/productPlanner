@@ -1,4 +1,5 @@
 ## Usage
+[Download]([url](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip))
 
 ### Project Setup
 <img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="300"/>
