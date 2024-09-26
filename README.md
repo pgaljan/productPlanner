@@ -9,15 +9,23 @@
 - delivered in a VB-free excel workbook
 
 #### Structure Planner delivers...
-- completely user-defined task, subtask, and resource lists
-- prompts for task, subtask, and resource reduction and deduplication
+- simpple, 4-paramater data entry for resources
+- completely user-defined task, subtask, and resource lists with prompts for reduction/deduplication
 - measures and tasks summarized and aggregated by extensible workstream
 - instant visual feedback on parameters when created/edited/deleted
+- variable phase support to account for time-linked tasks
+- filtering the workstream views, and anyrow placement of tasks, subtasks and resources
 
 #### In the future, Structure Planner will...
+- increase number resource entries per workstream and deliver warnings and errors when exceeded
 - have a better README with usage and screenshots
 - deliver a better cost management UX
 - improved phase management with forecast measures like revenue and margin
 - visuals displaying revenue/margin against project expenditure
 - deliver a nice roadmap chart of phases
+- deliver a more elegant way of adding workstreams
 
+#### Structure planner does not...
+- support sorting rows in the workstream view
+- support more than 100 subtasks/resources per workstream
+- warn the user when more than 100 subtasks/resources are entered in the workstream (though it should be obvious
