@@ -19,7 +19,7 @@
 #### Structure Planner delivers...
 - simple, 5-parameter data entry for resources
 - fluid, user-defined task and resource definition with prompts for reduction/deduplication
-- measures and tasks summarized and aggregated by extensible workstream
+- key measures and financials summarized and aggregated by up to 12 workstreams
 - real-time visual feedback on data entry
 - variable phase support to account for time-linked tasks
 - filterable workstream views
