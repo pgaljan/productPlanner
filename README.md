@@ -14,7 +14,7 @@
 - measures and tasks summarized and aggregated by extensible workstream
 - instant visual feedback on parameters when created/edited/deleted
 - variable phase support to account for time-linked tasks
-- filtering the workstream views, and anyrow placement of tasks, subtasks and resources
+- filterable workstream views, and anyrow placement of tasks, subtasks and resources
 
 #### In the future, Structure Planner will...
 - increase number resource entries per workstream and deliver warnings and errors when exceeded
