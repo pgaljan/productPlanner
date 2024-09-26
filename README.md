@@ -4,7 +4,7 @@
 - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
 - appropriate for use with two-pizza planning teams
 - designed for early project phase ideation, cost sizing, and visualzation
-- capable of an handling arbitrary numbers of workstreams and work periods
+- capable of an handling arbitrary number of work periods and project timespan
 - configurable to handle work periods of days, weeks, quarters, or years
 - delivered in a VB-free excel workbook, with protected sheets for error-free entry
 
