@@ -36,7 +36,7 @@
 - allow the user to create milestones and associate them with measures elsewhere
 - deliver a nice roadmap chart of phases with milestones and financials
 - deliver mermaid markup for hierarchy visualization
-- fix the harmless but limiting display of errored values associated with prepopulated workstreams
+- fix the harmless but limiting display of errored values in the enum sheet associated with prepopulated workstreams
 
 #### Structure planner does not...
 - support sorting rows in the workstream view
