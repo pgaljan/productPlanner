@@ -1,5 +1,6 @@
 ## Usage
-[Download]([url](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip))
+
+[Download](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
 
 ### Project Setup
 <img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="300"/>
@@ -14,7 +15,7 @@
 - columns j-k are completely user-defined
 - the dropdowns are unenforced - to enter a new task, subtask or resource type the value
 - values you enter will be reflected in the list
-- newly declared resources will be flagged as red until added in the resources table (see [editing resources and costs](#resources))
+- newly declared resources will be flagged as red until added in the resources table 
 
 ### Resources
 <img src="https://github.com/user-attachments/assets/240e0fce-41f7-4588-aa62-52c254d5fcff" alt="img" width="300"/>
@@ -41,9 +42,6 @@ Data are summarized by task in real time
 <img src="https://github.com/user-attachments/assets/e4270825-b050-443c-b87f-e3038daa86c4" alt="img" width="200"/>
 
 - go to the enum worksheet and enter the name of the _Excel worksheet_ where the workstream is defined.  The workstream name will be automatically populated
-
-
-
 
 # FAQ & roadmap
 
