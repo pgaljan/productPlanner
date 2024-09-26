@@ -4,14 +4,14 @@
 - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
 - appropriate for use with two-pizza planning teams
 - designed for early project phase ideation, cost sizing, and visualzation
-- capable of an handling arbitrary number of work periods and project timespan
+- capable of handling an arbitrary number of work periods and project timespan
 - configurable to handle work periods of days, weeks, quarters, or years
 - delivered in a VB and PowerQuery-free excel workbook, with protected sheets for error-free entry
 
 #### Use Structure Planner for...
 - project estimation and quick iteration during the ideation, planning, and contract bid phases
 - early identification of "big rocks" in the project plan
-- fast "what-if" analyses and busienss cases unconstrained by existing product management structure
+- generating "what-if" analyses and business cases unconstrained by existing product management structures
 - cross-organizational collaboration efforts with no shared data structures or nomenclatures
 - auditing operational project plans produced in enterprise project management software
 - creating a sanity-checked and agreed structure for implementation in enterprise project management software
