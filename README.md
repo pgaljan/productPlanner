@@ -71,6 +71,7 @@ there are ten hidden workstream templates for a total of 12 supported workstream
 - cross-organizational collaboration efforts with no shared data structures or nomenclatures
 - auditing operational project plans produced in enterprise project management (EPM) software
 - modeling and simulation of notional project structures for operational implementation in EPM software
+- producing predictable and structured otuput for deeper or comparative analysis
 
 #### Structure Planner delivers...
 - simple, 5-parameter data entry for resources
