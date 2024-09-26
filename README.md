@@ -1,49 +1,7 @@
-# Structure Planner
-
-#### Structure Planner is...
-- "project quantification in a box" - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
-- appropriate for use with two-pizza planning teams
-- designed for early project phase ideation, cost sizing, and visualzation
-- capable of handling an arbitrary number of work periods and project timespan
-- configurable to handle work periods of days, weeks, quarters, or years
-- delivered in a VB and PowerQuery-free excel workbook, with sheets protected (without password) for error-free authoring
-
-#### Use Structure Planner for...
-- project estimation and quick iteration during the ideation, planning, and contract bid phases
-- early identification of "big rocks" in the project plan
-- generating "what-if" analyses and business cases unconstrained by existing project management structures
-- parallel analysis (red/blue team)
-- cross-organizational collaboration efforts with no shared data structures or nomenclatures
-- auditing operational project plans produced in enterprise project management (EPM) software
-- modeling and simulation of notional project structures for operational implementation in EPM software
-
-#### Structure Planner delivers...
-- simple, 5-parameter data entry for resources
-- fluid, user-defined task and resource definition with prompts for reduction/deduplication
-- key measures and financials summarized and aggregated by up to 12 workstreams
-- real-time visual feedback on data entry
-- variable phase support to account for time-linked tasks
-- filterable workstream views
-- anyrow placement of tasks, subtasks and resources
-- cost estimates by resource type, with capex and opex flags
-
-#### In the future, Structure Planner will...
-- increase the number of resource entries per workstream and deliver warnings and errors when exceeded
-- include forecast measures like revenue and margin
-- feature visuals displaying revenue/margin against project expenditure
-- allow the user to create milestones and associate them with measures elsewhere
-- deliver a nice roadmap chart of phases with milestones and financials
-- deliver mermaid markup for hierarchy visualization
-- fix the harmless but limiting display of errored values in the enum sheet associated with prepopulated workstreams
-
-#### Structure planner does not...
-- support sorting rows in the workstream view
-- support more than 100 subtasks/resources per workstream (action blocked)
-
   ## Usage
   ### Project and Phase Setup
-<img src="[drawing.jpg](https://github.com/user-attachments/assets/fd072a93-3e5e-41cf-867e-c9cde862de4e)" alt="img" width="200"/>
-  ![image](https://github.com/user-attachments/assets/fd072a93-3e5e-41cf-867e-c9cde862de4e)
+<img src="https://github.com/user-attachments/assets/fd072a93-3e5e-41cf-867e-c9cde862de4e" alt="img" width="600"/>
+  
 - Set a Name and start date (defaults to today)
 - Select a planning periodicity (from day to year)
 - Name the four phases as you prefer
@@ -88,3 +46,45 @@ there are ten hidden workstream templates for a total of 12 supported workstream
 - go to the enum worksheet and enter the name of the Excel worksheet where the workstream is defined.  The workstream name will be automatically populated
 - if you enter an invalid worksheet name, you'll be prompted to fix it.
 - optionally enter the order that you would like the workstreams displayed
+
+# FAQ & roadmap
+
+#### Structure Planner is...
+- "project quantification in a box" - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
+- appropriate for use with two-pizza planning teams
+- designed for early project phase ideation, cost sizing, and visualzation
+- capable of handling an arbitrary number of work periods and project timespan
+- configurable to handle work periods of days, weeks, quarters, or years
+- delivered in a VB and PowerQuery-free excel workbook, with sheets protected (without password) for error-free authoring
+
+#### Use Structure Planner for...
+- project estimation and quick iteration during the ideation, planning, and contract bid phases
+- early identification of "big rocks" in the project plan
+- generating "what-if" analyses and business cases unconstrained by existing project management structures
+- parallel analysis (red/blue team)
+- cross-organizational collaboration efforts with no shared data structures or nomenclatures
+- auditing operational project plans produced in enterprise project management (EPM) software
+- modeling and simulation of notional project structures for operational implementation in EPM software
+
+#### Structure Planner delivers...
+- simple, 5-parameter data entry for resources
+- fluid, user-defined task and resource definition with prompts for reduction/deduplication
+- key measures and financials summarized and aggregated by up to 12 workstreams
+- real-time visual feedback on data entry
+- variable phase support to account for time-linked tasks
+- filterable workstream views
+- anyrow placement of tasks, subtasks and resources
+- cost estimates by resource type, with capex and opex flags
+
+#### In the future, Structure Planner will...
+- increase the number of resource entries per workstream and deliver warnings and errors when exceeded
+- include forecast measures like revenue and margin
+- feature visuals displaying revenue/margin against project expenditure
+- allow the user to create milestones and associate them with measures elsewhere
+- deliver a nice roadmap chart of phases with milestones and financials
+- deliver mermaid markup for hierarchy visualization
+- fix the harmless but limiting display of errored values in the enum sheet associated with prepopulated workstreams
+
+#### Structure planner does not...
+- support sorting rows in the workstream view
+- support more than 100 subtasks/resources per workstream (action blocked)
