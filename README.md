@@ -39,7 +39,7 @@ Data are summarized by task in real time
 
 <img src="https://github.com/user-attachments/assets/e4270825-b050-443c-b87f-e3038daa86c4" alt="img" width="200"/>
 
-- go to the enum worksheet and enter the name of the _Excel worksheet _where the workstream is defined.  The workstream name will be automatically populated
+- go to the enum worksheet and enter the name of the _Excel worksheet_ where the workstream is defined.  The workstream name will be automatically populated
 
 
 
