@@ -9,16 +9,18 @@
 - Select a percentage uplift to be applied to all resources present in the phase
 
 ### Workstream authoring and editing
-![image](https://github.com/user-attachments/assets/70e2622c-297c-47f3-a33a-b776fb8a2e51)
-- assign a workstream name to be used in visuals and reporting.  It can be different from the Excel worksheet name
+<img src="https://github.com/user-attachments/assets/70e2622c-297c-47f3-a33a-b776fb8a2e51" alt="img" width="200"/>
 
-![image](https://github.com/user-attachments/assets/912ab02b-2e13-4d4f-865b-86dc804352a6)
+- assign a workstream name to be used in visuals and reporting.  It can be different from the Excel worksheet name
+<img src="https://github.com/user-attachments/assets/912ab02b-2e13-4d4f-865b-86dc804352a6" alt="img" width="600"/>
+
 - dropdowns are pre-populated with previous values, and you are free to enter your own
 - when you create your own resource types, they will be added to the dropdown, and flagged in red until you define the resource
 - assign a quantity to each resource.  This will be multiplied by the estPerUnit calculated value in the resources table
 
 #### Phasing the resources
-![image](https://github.com/user-attachments/assets/01a99b96-d23c-4d68-8422-750152a417a4)
+<img src="https://github.com/user-attachments/assets/01a99b96-d23c-4d68-8422-750152a417a4" alt="img" width="600"/>
+
 - when you select "On" for phased resources, additional columns appear aligning to the phases you've defined
 - by default, each phase carries the base qty value via formula.  Edit the phases as you see fit.
 - Manually changed values will be marked in blue font, and will not reflect changes to the base quantity.
@@ -26,22 +28,25 @@
 Refer to phase setup for application of project-wide variables aligned to phases
 
 ### Defining Resources
-![image](https://github.com/user-attachments/assets/14d3ed7e-412b-4098-bfd7-21e4fb50b709)
+<img src="https://github.com/user-attachments/assets/14d3ed7e-412b-4098-bfd7-21e4fb50b709" alt="img" width="200"/>
+
 - Resources you create or edit in this table will be present in the resource drop down
 - note the resources in red on each tab and enter them on this table
 - cost estimates are optional
 
 ### Workstream results
-![image](https://github.com/user-attachments/assets/5efe4729-ee6c-4a08-b0ea-5ea83cfdf97e)
+<img src="https://github.com/user-attachments/assets/5efe4729-ee6c-4a08-b0ea-5ea83cfdf97e" alt="img" width="200"/>
+
 - key measures are summarized by workstream
 - tasks are listed with key measures summarized by task within the workstream
+<img src="https:/github.com/user-attachments/assets/fff16dbe-07a2-449e-97db-a269310a1f1d" alt="img" width="200"/>
 
-![image](https://github.com/user-attachments/assets/fff16dbe-07a2-449e-97db-a269310a1f1d)
 - in the workstream you see a real time summary of the tasks, with number of subtasks and associated resource types, along with base quantity cost
   
 ### Adding a workstream
 there are ten hidden workstream templates for a total of 12 supported workstreams in the workbook
-![image](https://github.com/user-attachments/assets/611acfaf-5917-41b9-821a-bd2969df2c92)
+<img src="https://github.com/user-attachments/assets/611acfaf-5917-41b9-821a-bd2969df2c92" alt="img" width="200"/>
+
 - to add a workstream, unhide one of the templates and rename the worksheet and the workstream ($B$2)
 - go to the enum worksheet and enter the name of the Excel worksheet where the workstream is defined.  The workstream name will be automatically populated
 - if you enter an invalid worksheet name, you'll be prompted to fix it.
@@ -56,6 +61,7 @@ there are ten hidden workstream templates for a total of 12 supported workstream
 - capable of handling an arbitrary number of work periods and project timespan
 - configurable to handle work periods of days, weeks, quarters, or years
 - delivered in a VB and PowerQuery-free excel workbook, with sheets protected (without password) for error-free authoring
+- Excel for web compatible and mobile friendly
 
 #### Use Structure Planner for...
 - project estimation and quick iteration during the ideation, planning, and contract bid phases
