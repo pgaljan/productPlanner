@@ -7,7 +7,7 @@
 
 # Overview
 
-Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for agile, small (two-pizza) teams to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers independently configurable work periods and project phases, so it can be used for very small to extremely large projects.  It works seamlessly across platforms, including mobile and web, and does not rely on macros or external plugins, making it ideal for small teams lacking a commonly accessible Enterprise Project Management (EPM) system.
+Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for agile, small (two-pizza) teams to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers independently configurable work periods and project phases, so it can be used for very small consisting of a few sprints, to wide-ranging projects spanning decades.  It works seamlessly across platforms, including mobile and web, and does not rely on macros or external plugins, making it ideal for small teams lacking a commonly accessible Enterprise Project Management (EPM) system.
 
 #### Key Features:
 - 4-tier project planner for structured project planning.
