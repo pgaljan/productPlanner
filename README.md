@@ -111,7 +111,6 @@ Yes, Structure Planner provides **cost estimates by resource type** and allows y
 ---
 
 ### 10. **What future features are planned for Structure Planner?**
-- Support for more resource entries per workstream, with error warnings
 - Forecast measures like revenue and margin
 - Visuals comparing **revenue/margin against project expenditure**
 - Milestone creation and tracking within phases
