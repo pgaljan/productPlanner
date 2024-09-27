@@ -101,6 +101,7 @@ Yes, Structure Planner provides **cost estimates by resource type** and allows y
 - Support for variable project phases and time-linked tasks
 - Filterable workstream views and real-time feedback on data entry
 - Flexible task placement anywhere within the worksheet
+- Quickly identify when the cost impact of a resource has changed between analyses using **resource hash**
 
 ---
 
@@ -111,6 +112,7 @@ Yes, Structure Planner provides **cost estimates by resource type** and allows y
 ---
 
 ### 10. **What future features are planned for Structure Planner?**
+- Workstream hashing
 - Forecast measures like revenue and margin
 - Visuals comparing **revenue/margin against project expenditure**
 - Milestone creation and tracking within phases
@@ -129,16 +131,20 @@ No, Structure Planner is a **VBA and PowerQuery-free** tool, ensuring that it ru
 Yes, Structure Planner can be leveraged to perform high-level analyses in parallel to those produced and managed in Enterprise Project Management (EPM) tools, as well as simulating notional project structures for future implementation in those tools.
 
 ---
+### 13. **What is the purpose of resource hashing?**
+Resource hashes aid in change tracking.  They are unique IDs assigned resoruce by "fingerprinting" a combination the resource name and estimated per unit cost both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be used in downstream processing to create changelogs.
 
-### 13. **Is there a way to model phases or variable time-linked tasks?**
+---
+
+### 14. **Is there a way to model phases or variable time-linked tasks?**
 Yes, Structure Planner supports **phasing resources**, which allows you to apply phase-specific adjustments to resources over time and manage tasks linked to specific phases within the project.
 
 ---
 
-### 14. **How do I know when I've exceeded resource limits?**
+### 15. **How do I know when I've exceeded resource limits?**
 Structure Planner will deliver **warnings and errors** when the number of resource entries exceeds the current limits per workstream.
 
 ---
-### 15. **What are Structure Planner's cost and license terms?**
+### 16. **What are Structure Planner's cost and license terms?**
 
 Structure Planner is licensed under the MIT License. You are free to use, modify, and distribute the tool, provided that the original authorship and license remain attributed. For the full license text, refer to the attached LICENSE file or visit [MIT License](https://opensource.org/licenses/MIT).
