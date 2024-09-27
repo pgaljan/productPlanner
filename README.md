@@ -138,3 +138,8 @@ Yes, Structure Planner supports **phasing resources**, which allows you to apply
 
 ### 14. **How do I know when I've exceeded resource limits?**
 Structure Planner will deliver **warnings and errors** when the number of resource entries exceeds the current limits per workstream.
+
+---
+### 15. **What are Structure Planner's cost and license terms?**
+
+Structure Planner is licensed under the MIT License. You are free to use, modify, and distribute the tool, provided that the original authorship and license remain attributed. For the full license text, refer to the attached LICENSE file or visit [MIT License](https://opensource.org/licenses/MIT).
