@@ -135,7 +135,7 @@ Yes, Structure Planner can be leveraged to perform high-level analyses in parall
 ### 13. **What is the purpose of hashing?**
 Hashes aid in change tracking and drift detection.  They are unique IDs assigned to resources by applying a lambda function against a combination of critical attributes both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
 
-Hashes are not calculated and thus not displayed in the enum sheet if turned off.  Be aware of this if you plan to leverage them in a downstream repository.
+Because they are computationally intensive, hashes are not calculated and thus not present in the enum sheet if turned off.  Be aware of this if you plan to leverage them in a downstream repository.
 
 ---
 
