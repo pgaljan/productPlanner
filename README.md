@@ -12,8 +12,9 @@ Structure Planner is a lightweight Excel-based project quantification tool that 
 #### Key Features:
 - 4-tier project planner for structured project planning.
 - Support for up to 12 workstreams.
-- Configurable work periods (days, weeks, quarters, years).
-- Designed for Excel for web compatibility and mobile-friendly.
+- Up to 12 project phases of arbitrary length, with configurable headwinds or tailwinds
+- Work periods configurable from days, weeks, months, quarters, or years.
+- Designed for Excel for web and mobile compatibility.
 - Delivered in a VB- and PowerQuery-free workbook with protected sheets for error-free authoring (without passwords).
 
 # Usage
