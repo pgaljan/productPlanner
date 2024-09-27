@@ -131,8 +131,8 @@ No, Structure Planner is a **VBA and PowerQuery-free** tool, ensuring that it ru
 Yes, Structure Planner can be leveraged to perform high-level analyses in parallel to those produced and managed in Enterprise Project Management (EPM) tools, as well as simulating notional project structures for future implementation in those tools.
 
 ---
-### 13. **What is the purpose of resource hashing?**
-Resource hashes aid in change tracking.  They are unique IDs assigned resoruce by "fingerprinting" a combination the resource name and estimated per unit cost both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be used in downstream processing to create changelogs.
+### 13. **What is the purpose of hashing?**
+Resource hashes aid in change tracking.  They are unique IDs assigned resoruce by "fingerprinting" a combination of critical attributes both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
 
 ---
 
