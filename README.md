@@ -1,4 +1,5 @@
 [Download (github)](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
+
 [Try it in Excel for Web](https://cloudmappr.sharepoint.com/:x:/g/ES6hpdFmXjhIgeCu6C8BOP8BU19S1zQze8F53kfr2nISUw?e=MxdyPH)
 
 # Structure Planner
