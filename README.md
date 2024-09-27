@@ -132,7 +132,7 @@ Yes, Structure Planner can be leveraged to perform high-level analyses in parall
 
 ---
 ### 13. **What is the purpose of hashing?**
-Resource hashes aid in change tracking.  They are unique IDs assigned resoruce by "fingerprinting" a combination of critical attributes both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
+Resource hashes aid in change tracking.  They are unique IDs assigned to resources by applying a lambda function against a combination of critical attributes both at the row and table level.  As the workbook changes over time, they can be used to quickly visually and programmatically idenitfy which elements have changed.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
 
 ---
 
