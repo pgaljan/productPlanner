@@ -34,7 +34,7 @@ To describe and organize tasks within Structure Planner:
 Structure Planner supports up to **12 workstreams**. To add a new workstream:
 1. **Copy an existing sheet**: Duplicate one of the existing workstream sheets.
 2. **Rename the new workstream**: Change the sheet name by editing **Cell $B$2** with your chosen name.
-3. **Register the new workstream**: Go to the **Setup worksheet** and add the new worksheet name to the **workstream table**.
+3. **Register the new workstream**: Go to the **Setup worksheet** and add the new worksheet name to"worksheet" column in the **workstream table**.
 
 ### 3. Cost Modeling (Optional)
 Structure Planner provides **cost modeling** based on resource definitions.
@@ -46,9 +46,8 @@ Structure Planner provides **cost modeling** based on resource definitions.
 Structure Planner allows you to phase resources over time, applying specific multipliers to resource values for each phase.
 <img src="https://github.com/user-attachments/assets/21b64792-d5ab-4a69-8f00-d3fb14b77cd1" alt="workstream summary" width="400"/>
 
-- **Phase-specific multipliers**: You can apply a phase-specific headwind or tailwind to adjust the **base declared value** of a resource for each phase. This does **not** affect previous phases.
-- **Non-calculated values**: If you manually adjust the resource values in a phase, they will no longer be linked to the base or multiplier, and the cells will be flagged **blue** to indicate they are non-calculated.
-- **Per-workstream setup**: Phasing is managed on a **per-workstream basis**.
+- **Phase-specific multipliers**: You can apply a phase-specific headwind or tailwind applied against the **first phase** of a resource for each phase. Uplifts do not accumulate
+- **Non-calculated values**: If you manually adjust the resource values in a phase, they will no longer be linked to the base or multiplier.  Non-calculated values are flagged **blue**.
 
 
 
