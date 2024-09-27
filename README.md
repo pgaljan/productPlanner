@@ -1,68 +1,142 @@
-# About
 [Download (github)](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
 
+# Table of Contents
+1. [Overview](#Overview)
+2. [Usage](#Usage)
+3. [FAQ](#FAQ)
 
-#### Structure Planner is...
-- "project quantification in a box" - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
-- appropriate for use with two-pizza planning teams
-- designed for early project phase ideation, cost sizing, and visualzation
-- capable of handling an arbitrary number of work periods and project timespan
-- configurable to handle work periods of days, weeks, quarters, or years
-- delivered in a VB and PowerQuery-free excel workbook, with sheets protected (without password) for error-free authoring
-- Excel for web compatible and mobile friendly
+# Overview
 
-#### Use Structure Planner for...
-- project estimation and quick iteration during the ideation, planning, and contract bid phases
-- early identification of "big rocks" in the project plan
-- generating "what-if" analyses and business cases unconstrained by existing project management structures
-- parallel analysis (red/blue team)
-- cross-organizational collaboration efforts with no shared data structures or nomenclatures
-- auditing operational project plans produced in enterprise project management (EPM) software
-- modeling and simulation of notional project structures for operational implementation in EPM software
-- producing predictable and structured otuput for deeper or comparative analysis
+Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for small, agile teams (two-pizza teams) to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers the flexibility to define work periods in days, weeks, quarters, or years and does not rely on macros or external plugins, ensuring it works seamlessly across platforms, including Excel for web and mobile.
 
-#### Structure Planner delivers...
-- simple, 5-parameter data entry for resources
-- fluid, user-defined task and resource definition with prompts for reduction/deduplication
-- key measures and financials summarized and aggregated by up to 12 workstreams
-- real-time visual feedback on data entry
-- variable phase support to account for time-linked tasks
-- filterable workstream views
-- anyrow placement of tasks, subtasks and resources
-- cost estimates by resource type, with capex and opex flags
+#### Key Features:
+- 4-tier project planner for structured project planning.
+- Support for up to 12 workstreams.
+- Configurable work periods (days, weeks, quarters, years).
+- Designed for Excel for web compatibility and mobile-friendly.
+- Delivered in a VB- and PowerQuery-free workbook with protected sheets for error-free authoring (without passwords).
 
-#### In the future, Structure Planner will...
-- increase the number of resource entries per workstream and deliver warnings and errors when exceeded
-- include forecast measures like revenue and margin
-- feature visuals displaying revenue/margin against project expenditure
-- allow the user to create milestones and associate them with measures elsewhere
-- deliver a nice roadmap chart of phases with milestones and financials
-- deliver mermaid markup for hierarchy visualization
-- fix the harmless but limiting display of errored values in the enum sheet associated with prepopulated workstreams
+# Usage
 
-#### Structure planner does not...
-- support sorting rows in the workstream view
-- support more than 100 subtasks/resources per workstream (action blocked)
+### 1. Describing Tasks
+To describe and organize tasks within Structure Planner:
+- Use the **workstream tabs** (one for each workstream) to enter values in the following columns:
+  - **Task**: Name or description of the task.
+  - **Subtask**: Break down the task further into specific actions.
+  - **Resource**: Identify resources associated with the task or subtask.
+  - **Base Quantity**: Assign the quantity of each resource needed for the task or subtask.
+- For workstream management, navigate to the **enum page** to add or remove workstreams.
+- Each workstream is automatically **summarized by task**, showing the aggregate effect of your input.
 
-## Usage
-##### Describing tasks
-Use the workstream tabs and enter any values you'd like in Task, Subtask, Resource, and assign a base quantity.  Use the enum page to add or remove workstreams.  Workstreams are automatically summarized by task.
+<img src="https://github.com/user-attachments/assets/4361a1dd-9c0a-4a33-a2f8-e90d59dc8b2a" alt="workstream summary" width="400"/>
 
-<img src="https://github.com/user-attachments/assets/4361a1dd-9c0a-4a33-a2f8-e90d59dc8b2a" alt="workstream summary" width="200"/>
+### 2. Managing Workstreams
+Structure Planner supports up to **12 workstreams**. To add a new workstream:
+1. **Copy an existing sheet**: Duplicate one of the existing workstream sheets.
+2. **Rename the new workstream**: Change the sheet name by editing **Cell $B$2** with your chosen name.
+3. **Register the new workstream**: Go to the **enum worksheet** and add the new worksheet name to the **workstream table**.
+
+### 3. Cost Modeling (Optional)
+Structure Planner provides **cost modeling** based on resource definitions.
+- Each **resource** described in the workstream tabs must be defined in the **Resource Tab** for cost calculations.
+- **Cost modeling is optional**: You can skip resource definitions if you don’t need cost calculations.
+- The default resource list is populated using **fully loaded United States OTE (On-Target Earnings)** for typical job roles (pre-populated via a ChatGPT query).
+
+### 4. Phasing Resources (Optional)
+Structure Planner allows you to phase resources over time, applying specific multipliers to resource values for each phase.
+<img src="https://github.com/user-attachments/assets/21b64792-d5ab-4a69-8f00-d3fb14b77cd1" alt="workstream summary" width="400"/>
+
+- **Phase-specific multipliers**: You can apply a phase-specific headwind or tailwind to adjust the **base declared value** of a resource for each phase. This does **not** affect previous phases.
+- **Non-calculated values**: If you manually adjust the resource values in a phase, they will no longer be linked to the base or multiplier, and the cells will be flagged **blue** to indicate they are non-calculated.
+- **Per-workstream setup**: Phasing is managed on a **per-workstream basis**.
 
 
-##### Managing Workstreams
-structurePlanner supports up to 12 workstreams.  To add a workstream:
-  1. copy one of the existing sheets
-  2. Assign it a name (Cell $B$2)
-  3. Add the worksheet name to the workstream table in the enum worksheet
 
-##### Cost Modeling (optional)
-- resources described in the workstream tabs must be defined in the resource tab
-- resource definition is NOT required if you do not need cost modeling
-- the default list is populated by chatGPT query for fully loaded United States OTE for the job roles
+# FAQ
 
-##### Phasing Resources (optional)
-- multiplier is a phase-specific head or tailwind applied to the **base declared value**, not the previous phase
-- when phased values are manipulated, they are no longer tied to either the **base** or the **multiplier** and will be flagged as blue to indicate non-calucated value
-- phasing is set on a per-workstream basis
+## Structure Planner FAQ
+
+### 1. **What is Structure Planner?**
+Structure Planner is a simple yet powerful, 4-tier project planning tool designed for agile, small teams (two-pizza teams). It helps with early project phase ideation, cost sizing, and task visualization, supporting up to 12 workstreams in an Excel-based format. It is designed to handle different time periods and works without macros (VB- and PowerQuery-free).
+
+---
+
+### 2. **What type of projects is Structure Planner suitable for?**
+Structure Planner is ideal for:
+- Early-stage project ideation and planning
+- Quick cost estimation and iteration during contract bidding phases
+- Projects that need to identify major milestones ("big rocks") early on
+- Running "what-if" analyses, business case development, and parallel analysis (e.g., red/blue teams)
+- Cross-organizational collaboration where different teams may use diverse data structures
+- Auditing and modeling operational project structures for implementation in Enterprise Project Management (EPM) software
+
+---
+
+### 3. **How many workstreams can I manage with Structure Planner?**
+Structure Planner supports up to **12 workstreams**, making it suitable for managing multiple task flows within a project.
+
+---
+
+### 4. **Can I customize the length of the project timespan and work periods?**
+Yes, Structure Planner can handle an arbitrary number of work periods and timespans. It can be configured to work with different time periods such as **days, weeks, quarters, or years**.
+
+---
+
+### 5. **Is Structure Planner compatible with Excel for web and mobile devices?**
+Yes, Structure Planner is designed to be **Excel for web compatible** and mobile-friendly, making it accessible across various devices and platforms without any dependencies on VBA or PowerQuery.
+
+---
+
+### 6. **What kind of data entry is required?**
+Structure Planner requires a **simple, 5-parameter data entry** for defining resources. You can add tasks, subtasks, and resources freely and receive **real-time visual feedback** as you populate data.
+
+---
+
+### 7. **Does Structure Planner include financial estimates and cost modeling?**
+Yes, Structure Planner provides **cost estimates by resource type** and allows you to flag expenses as either **CapEx (Capital Expenditure)** or **OpEx (Operational Expenditure)**. It summarizes financials and key measures across all workstreams.
+
+---
+
+### 8. **What are some key features delivered by Structure Planner?**
+- Simple data entry for tasks and resources
+- Automatic aggregation and summarization of key metrics across workstreams
+- Support for variable project phases and time-linked tasks
+- Filterable workstream views and real-time feedback on data entry
+- Flexible task placement anywhere within the worksheet
+
+---
+
+### 9. **What are the current limitations of Structure Planner?**
+- **No sorting support** for rows within the workstream view.
+- **Resource limits**: Currently, it supports up to 100 subtasks/resources per workstream.
+  
+---
+
+### 10. **What future features are planned for Structure Planner?**
+- Support for more resource entries per workstream, with error warnings
+- Forecast measures like revenue and margin
+- Visuals comparing **revenue/margin against project expenditure**
+- Milestone creation and tracking within phases
+- Roadmap charts for project phases and milestones
+- Mermaid markup support for project hierarchy visualization
+- Fix for minor display errors in the workstream enum sheet
+
+---
+
+### 11. **Does Structure Planner require VBA or macros to run?**
+No, Structure Planner is a **VBA and PowerQuery-free** tool, ensuring that it runs smoothly across all Excel environments without relying on macros or additional dependencies.
+
+---
+
+### 12. **Can I use Structure Planner to audit Operational Project Plans?**
+Yes, Structure Planner can be leveraged to perform high-level analyses in parallel to those produced and managed in Enterprise Project Management (EPM) tools, as well as simulating notional project structures for future implementation in those tools.
+
+---
+
+### 13. **Is there a way to model phases or variable time-linked tasks?**
+Yes, Structure Planner supports **phasing resources**, which allows you to apply phase-specific adjustments to resources over time and manage tasks linked to specific phases within the project.
+
+---
+
+### 14. **How do I know when I've exceeded resource limits?**
+Structure Planner will deliver **warnings and errors** when the number of resource entries exceeds the current limits per workstream.
