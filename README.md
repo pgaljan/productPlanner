@@ -1,49 +1,6 @@
-## Usage
+# About
+[Download (github)](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
 
-[Download](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
-
-### Project Setup
-<img src="https://github.com/user-attachments/assets/131e8ba8-3901-41bc-85ab-ac0af90787f1" alt="img" width="300"/>
-
-- establish a start date, periodicity (month, quarter, year, etc)
-- number of periods determines project duration
-- multiplier is a phase-specific head or tailwind applied to the **base declared value**, not the previous phase
-
-### Creating Tasks, Subtasks and Resources
-<img src="https://github.com/user-attachments/assets/240e0fce-41f7-4588-aa62-52c254d5fcff" alt="img" width="200"/>
-
-- columns j-k are completely user-defined
-- the dropdowns are unenforced - to enter a new task, subtask or resource type the value
-- values you enter will be reflected in the list
-- newly declared resources will be flagged as red until added in the resources table 
-
-### Resources
-<img src="https://github.com/user-attachments/assets/240e0fce-41f7-4588-aa62-52c254d5fcff" alt="img" width="300"/>
-
-- change the default resource types to those appropriate for your project
-- add as many rows as you need, keeping everying in the table, and the calculated columns (gray font) untouched
-- the default list is populated by chatGPT query for fully loaded United States OTE for the job roles
-  
-<img src="https://github.com/user-attachments/assets/918942ad-ed9b-4fa8-9497-8eb3a3a28906" alt="img" width="200"/>
-
-Data are summarized by task in real time
-
-#### Phasing Resources
-<img src="https://github.com/user-attachments/assets/1c1ea617-93ff-4a6d-9600-70f25c3db87b" alt="img" width="400"/>
-
-- when resources are variable depending on the phase, switch "phased" to "on"
-- when values are manipulated, they are no longer tied to either the **base** or the **multiplier** and will be flagged as blue to indicate non-calucated value
-### Adding a workstream
-
-<img src="https://github.com/user-attachments/assets/0da27e30-2837-44bc-b7e4-ef0aa9a1c58c" alt="img" width="200"/>
-
-- duplicate the template worksheet, rename the Excel worksheet and the workstream (Cell $B$2)
-
-<img src="https://github.com/user-attachments/assets/e4270825-b050-443c-b87f-e3038daa86c4" alt="img" width="200"/>
-
-- go to the enum worksheet and enter the name of the _Excel worksheet_ where the workstream is defined.  The workstream name will be automatically populated
-
-# FAQ & roadmap
 
 #### Structure Planner is...
 - "project quantification in a box" - a simple, powerful, 4-tier project planner with support for up to 12 workstreams 
@@ -86,3 +43,26 @@ Data are summarized by task in real time
 #### Structure planner does not...
 - support sorting rows in the workstream view
 - support more than 100 subtasks/resources per workstream (action blocked)
+
+## Usage
+##### Describing tasks
+Use the workstream tabs and enter any values you'd like in Task, Subtask, Resource, and assign a base quantity.  Use the enum page to add or remove workstreams.  Workstreams are automatically summarized by task.
+
+<img src="https://github.com/user-attachments/assets/4361a1dd-9c0a-4a33-a2f8-e90d59dc8b2a" alt="workstream summary" width="200"/>
+
+
+##### Managing Workstreams
+structurePlanner supports up to 12 workstreams.  To add a workstream:
+  1. copy one of the existing sheets
+  2. Assign it a name (Cell $B$2)
+  3. Add the worksheet name to the workstream table in the enum worksheet
+
+##### Cost Modeling (optional)
+- resources described in the workstream tabs must be defined in the resource tab
+- resource definition is NOT required if you do not need cost modeling
+- the default list is populated by chatGPT query for fully loaded United States OTE for the job roles
+
+##### Phasing Resources (optional)
+- multiplier is a phase-specific head or tailwind applied to the **base declared value**, not the previous phase
+- when phased values are manipulated, they are no longer tied to either the **base** or the **multiplier** and will be flagged as blue to indicate non-calucated value
+- phasing is set on a per-workstream basis
