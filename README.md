@@ -1,6 +1,5 @@
 [Download (github)](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
 
-# Table of Contents
 1. [Overview](#Overview)
 2. [Usage](#Usage)
 3. [FAQ](#FAQ)
