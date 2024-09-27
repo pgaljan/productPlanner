@@ -1,5 +1,6 @@
 [Download (github)](https://github.com/pgaljan/structurePlanner/archive/refs/heads/main.zip)
 
+# Structure Planner
 1. [Overview](#Overview)
 2. [Usage](#Usage)
 3. [FAQ](#FAQ)
@@ -52,8 +53,6 @@ Structure Planner allows you to phase resources over time, applying specific mul
 
 
 # FAQ
-
-## Structure Planner FAQ
 
 ### 1. **What is Structure Planner?**
 Structure Planner is a simple yet powerful, 4-tier project planning tool designed for agile, small teams (two-pizza teams). It helps with early project phase ideation, cost sizing, and task visualization, supporting up to 12 workstreams in an Excel-based format. It is designed to handle different time periods and works without macros (VB- and PowerQuery-free).
