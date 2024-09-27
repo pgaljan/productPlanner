@@ -7,7 +7,7 @@
 
 # Overview
 
-Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for small, agile teams (two-pizza teams) to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers the flexibility to define work periods in days, weeks, quarters, or years and does not rely on macros or external plugins, ensuring it works seamlessly across platforms, including Excel for web and mobile.
+Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for small, agile teams (two-pizza teams) to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers the flexibility to define work periods in days, weeks, quarters, or years and does not rely on macros or external plugins, ensuring it works seamlessly across platforms, including Excel for web and mobile, making it ideal for small teams that lack a commonly accessible Enterprise Project Managament (EPM) system.
 
 #### Key Features:
 - 4-tier project planner for structured project planning.
@@ -106,7 +106,7 @@ Yes, Structure Planner provides **cost estimates by resource type** and allows y
 
 ### 9. **What are the current limitations of Structure Planner?**
 - **No sorting support** for rows within the workstream view.
-- **Resource limits**: Currently, it supports up to 100 subtasks/resources per workstream.
+- **Resource limits**: Currently, it supports up to 100 subtasks/resources per workstream for a total of 1,200 resources.
   
 ---
 
