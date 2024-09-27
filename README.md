@@ -34,9 +34,10 @@ To describe and organize tasks within Structure Planner:
 ### 2. Managing Workstreams
 Structure Planner supports up to **12 workstreams**. To add a new workstream:
 1. **Copy an existing sheet**: Duplicate one of the existing workstream sheets.
-2. **Rename the new workstream**: Change the sheet name by editing **Cell $B$2** with your chosen name.
-3. **Register the new workstream**: Go to the **Setup worksheet** and add the new worksheet name to"worksheet" column in the **workstream table**.
-4. Include the workstream in the dashboard views by toggling "include"
+2. **Rename the worksheet**: to a string starting with **"ws"**
+3. **Name your workstream**: Change the sheet name by editing **Cell $B$2** with your chosen name.
+4. **Register the new workstream**: Go to the **Setup worksheet** and add the new worksheet name (_"ws[your string]"_) in the **workstream table**.
+5. Include or exclude the workstream in the dashboard views by toggling "include"
 
 ### 3. Cost Modeling (Optional)
 Structure Planner provides **cost modeling** based on resource definitions.
