@@ -7,7 +7,7 @@
 
 # Overview
 
-Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for small, agile (two-pizza) teams to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers the flexibility to define work periods in days, weeks, quarters, or years and does not rely on macros or external plugins, ensuring it works seamlessly across platforms, including Excel for web and mobile, making it ideal for small teams lacking a commonly accessible Enterprise Project Management (EPM) system.
+Structure Planner is a lightweight Excel-based project quantification tool that provides powerful, simple, and structured project planning with up to 12 workstreams. It is designed for small, agile (two-pizza) teams to facilitate early project phase ideation, cost estimation, and task visualization. The tool offers the flexibility to define work periods in days, weeks, quarters, or years and does not rely on macros or external plugins, ensuring it works seamlessly across platforms, making it ideal for small teams lacking a commonly accessible Enterprise Project Management (EPM) system.
 
 #### Key Features:
 - 4-tier project planner for structured project planning.
@@ -55,7 +55,7 @@ Structure Planner allows you to phase resources over time, applying specific mul
 # FAQ
 
 ### 1. **What is Structure Planner?**
-Structure Planner is a simple yet powerful, 4-tier project planning tool designed for agile, small teams (two-pizza teams). It helps with early project phase ideation, cost sizing, and task visualization, supporting up to 12 workstreams in an Excel-based format. It is designed to handle different time periods and works without macros (VB- and PowerQuery-free).
+Structure Planner is a simple yet powerful, 4-tier project planning tool designed for agile, small teams. It helps with early project phase ideation, cost sizing, and task visualization, supporting up to 12 workstreams, giving rich, real-time visual feedback to the author. It is designed to handle different time periods and works without macros (VB- and PowerQuery-free).
 
 ---
 
