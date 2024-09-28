@@ -109,7 +109,7 @@ Yes, Structure Planner provides **cost estimates by resource type** and allows y
 
 ### 9. **What are the current limitations of Structure Planner?**
 - **No sorting support** for rows within the workstream view.
-- **Resource limits**: Currently, it supports up to 100 subtasks/resources per workstream for a total of 1,200 resources.
+- **Resource limits**: Currently, it supports up to 100 subtasks/resources per workstream for a total of 1,200 resources, 12 workstreams, and 12 planning phases spanning an arbitrary number of years.
   
 ---
 
