@@ -134,9 +134,9 @@ Yes, Structure Planner can be leveraged to perform high-level analyses in parall
 
 ---
 ### 13. **What is the purpose of hashing?**
-Hashes aid in change tracking and drift detection.  They are pseudo-unique hex values assigned to resources by applying a lambda function against a combination of critical attributes.  As mutliple users may do perform changes independently and asynchronously, hashes allow users to quickly visually and programmatically idenitfy which elements have changed.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
+Hashes aid in change tracking and drift detection.  They are pseudo-unique hex values assigned to resources by applying a lambda function against a combination of critical attributes.  As mutliple users perform changes independently and asynchronously and upload to a common repo, hashes allow users to quickly visually and programmatically idenitfy which elements have changed between any two copies.  They can be also be used in downstream processing to create changelogs and facilitate comparative analysis in red/blue team analysis scenarios.
 
-Because they are computationally intensive, hashes are not calculated and thus not present in any functions or named arrays.  Be aware of this if you plan to leverage them in a downstream repository.  Also note that although financials behave similarly in that toggling the cost planning flag will remove the resource cost multiplier, the resources table will hold default values populated for merging into downstream analysis. 
+Because they are computationally intensive, hashes are not calculated and thus not present in any functions or named arrays.  Be aware of this if you plan to leverage them in a downstream repository. Hashes do calculate consistently, so you can turn them on after the fact to compare two Structured Plans.
 
 ---
 
